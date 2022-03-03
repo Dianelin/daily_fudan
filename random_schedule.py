@@ -66,10 +66,10 @@ jobs:
           pip install -r requirements.txt
           python3 ./dailyFudan.py '${{ secrets.FUDAN }}'
 '''
-am_inf=19
-am_sup=22
-pm_inf = 5
-pm_sup = 8
+am_inf=20
+am_sup=23
+pm_inf = 8
+pm_sup = 9
 t_inf = 4
 t_sup = 15
 
